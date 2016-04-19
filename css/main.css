@@ -1,0 +1,39 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    /*font-family: 'Great Vibes', cursive;*/
+    /*font-family: 'Nobile', sans-serif;*/
+}
+h1, h2, h3{
+    margin: 0;
+}
+#futbol_project{
+    background: url('../img/ivan_beach.jpg') center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.shade{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.85);
+}
+
+#futbol_project h1{
+    position: relative;
+    top: 40%;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+#futbol_project h3{
+    position: relative;
+    top: 50%;
+    font-size: 2em;
+    font-weight: 200;
+}
+
